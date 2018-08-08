@@ -1,0 +1,221 @@
+<resources>
+    <string name="app_name">starton</string>
+
+    <string name="customer">Find exquisite goods and genuine prices at the same place!</string>
+    <string name="owner">Pro your business hassle-free!</string>
+    <string name="ownerHeading">Owner</string>
+    <string name="getStarted">Get Started</string>
+    <string name="customerHeading">Customer</string>
+
+    <string name="full_name">Full Name</string>
+    <string name="firmName">Firm Name</string>
+    <string name="gstIn">GSTIN</string>
+    <string name="aadhar">Aadhar Number</string>
+    <string name="phone">Phone</string>
+    <string name="established">Established From</string>
+    <string name="subscription">Subscription</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signUp">Sign Up</string>
+
+    <string name="jyoti">Jyoti Art And Craft</string>
+    <string name="current">Current Orders</string>
+    <string name="myItems">My Items</string>
+    <string name="updateItems">Update Items</string>
+    <string name="progressGraph">Progress Graph</string>
+    <string name="sellLimit">Sell Limit?</string>
+    <string name="myLogs">My Logs</string>
+    <string name="advertisements">Advertisements</string>
+    <string name="feedback">Feedback</string>
+
+    <string-array name="Title">
+
+        <item>CandleStand</item>
+        <item>Ceramicwork</item>
+
+        <item>Lamp Fixture</item>
+        <item>RoundBasket</item>
+
+
+    </string-array>
+
+    <string-array name="discription">
+
+        <item>Price:₹100</item>
+        <item>Price:₹1000</item>
+
+        <item>Price:₹200</item>
+        <item>Price:₹599</item>
+
+    </string-array>
+
+    <string-array name="Quantity">
+
+        <item>Qty:12</item>
+        <item>Qty:30</item>
+
+        <item>Qty:5</item>
+        <item>Qty:16</item>
+
+
+    </string-array>
+
+    <string-array name="Title1">
+
+        <item>Product code:101</item>
+        <item>Product code:102</item>
+        <item>Product code:105</item>
+        <item>Product code:109</item>
+        <item>Product code:201</item>
+        <item>Product code:501</item>
+
+    </string-array>
+
+    <string-array name="discription1">
+
+        <item>Date Order: 08/01/2018</item>
+        <item>Date Order: 10/01/2018</item>
+        <item>Date Order: 08/02/2018</item>
+        <item>Date Order: 16/02/2018</item>
+        <item>Date Order: 08/03/2018</item>
+        <item>Date Order: 15/04/2018</item>
+    </string-array>
+
+    <string-array name="Quantity1">
+
+        <item>Date Recieved: 10/01/2018</item>
+        <item>Date Recieved: 12/01/2018</item>
+        <item>Date Recieved: 10/02/2018</item>
+        <item>Date Recieved: 20/02/2018</item>
+        <item>Date Recieved: 10/03/2018</item>
+        <item>Date Recieved: 18/04/2018</item>
+
+
+    </string-array>
+    <string-array name="Address">
+
+        <item>Address: 20/119 Chatai Mohal</item>
+        <item>Address: 51/221 Ghantaghar</item>
+        <item>Address: 20/119 Chatai Mohal</item>
+        <item>Address: 20/131 Rawatpur</item>
+        <item>Address: 20/131 Rawatpur</item>
+        <item>Address: 20/99  Friends Colony</item>
+
+
+    </string-array>
+    <string-array name="Title3">
+
+        <item>Shewtank Srivastava</item>
+        <item>Bhuvnesh Pathak</item>
+
+        <item>Saumya Gupta</item>
+        <item>Tarun Gupta</item>
+
+
+    </string-array>
+
+    <string-array name="discription3">
+
+        <item>This is a very good Application</item>
+        <item>Excellent application to start your Statup plan</item>
+
+        <item>Cresating opportunity for the house hold womens</item>
+        <item>Improving the condition of small market </item>
+
+    </string-array>
+
+    <string-array name="Quantity3">
+
+        <item>★★★★</item>
+        <item>★★★</item>
+        <item>★★★</item>
+        <item>★★★★</item>
+
+
+    </string-array>
+    <string-array name="Title4">
+
+        <item>Data:</item>
+        <item>Data:</item>
+        <item>Data:</item>
+        <item>Data:</item>
+        <item>Data:</item>
+        <item>Data:</item>
+
+    </string-array>
+
+    <string-array name="discription4">
+
+        <item>Customer Id:</item>
+        <item>Customer Id:</item>
+        <item>Customer Id:</item>
+        <item>Customer Id:</item>
+        <item>Customer Id:</item>
+        <item>Customer Id:</item>
+    </string-array>
+
+    <string-array name="Quantity4">
+
+        <item>Product Id:</item>
+        <item>Product Id:</item>
+        <item>Product Id:</item>
+        <item>Product Id:</item>
+        <item>Product Id:</item>
+        <item>Product Id:</item>
+
+
+    </string-array>
+
+    <string-array name="events">
+        <item>select event</item>
+        <item>Package 1</item>
+        <item>Package 2</item>
+        <item>Package 3</item>
+        <item>Package 4</item>
+        <item>Package 5</item>
+        <item>Package 6</item>
+    </string-array>
+
+    <string-array name="Title5">
+
+        <item>T-shirt</item>
+        <item>Shirts</item>
+        <item>jacket</item>
+        <item>Hoody</item>
+
+
+    </string-array>
+
+    <string-array name="discription5">
+
+        <item>Price:₹100</item>
+        <item>Price:₹1000</item>
+
+        <item>Price:₹200</item>
+        <item>Price:₹599</item>
+
+    </string-array>
+
+    <string-array name="Quantity5">
+
+        <item>code:12</item>
+        <item>code:30</item>
+        <item>code:5</item>
+        <item>code:16</item>
+
+
+    </string-array>
+
+
+    <string name="title_activity_customer_front">CustomerFront</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
