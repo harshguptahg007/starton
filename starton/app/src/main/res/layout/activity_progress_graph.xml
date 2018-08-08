@@ -23,7 +23,7 @@
             android:textSize="30sp"
             android:textStyle="italic|bold"
             android:gravity="center"
-            android:fontFamily="cursive"
+            android:fontFamily="sans-serif"
             android:id="@+id/toolbar_title" />
 
     </android.support.v7.widget.Toolbar>

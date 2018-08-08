@@ -102,17 +102,20 @@ public class CustomerFront extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        if (id == R.id.nav_activity_one) {
 
-        } else if (id == R.id.nav_slideshow) {
+            Intent intent = new Intent(this,Activity_One.class);
+            startActivity(intent);
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_activity_two) {
 
-        } else if (id == R.id.nav_share) {
+            Intent intent = new Intent(this,Activity_Two.class);
+            startActivity(intent);
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_activity_three) {
+
+            Intent intent = new Intent(this,Activity_Three.class);
+            startActivity(intent);
 
         }
 

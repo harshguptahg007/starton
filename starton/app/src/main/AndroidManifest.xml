@@ -34,7 +34,10 @@
         <activity android:name=".CClothes" />
         <activity android:name=".loginCommon" />
         <activity android:name=".Algse" />
-        <activity android:name=".NewActivity"></activity>
+        <activity android:name=".NewActivity"/>
+        <activity android:name=".Activity_One" />
+        <activity android:name=".Activity_Two" />
+        <activity android:name=".Activity_Three"/>
     </application>
 
 </manifest>
