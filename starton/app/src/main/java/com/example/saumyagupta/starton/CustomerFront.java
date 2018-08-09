@@ -138,30 +138,28 @@ public class CustomerFront extends AppCompatActivity
                         startActivity(j);
                         finish();
                     }
-//                    else if(finall==1){
-//                        Intent j = new Intent(CustomerFront.this,MyItems.class);
-//                        startActivity(j);
-//                    }
-//
-//                    else if(finall==2) {
-//                        Intent j = new Intent(CustomerFront.this, UpdateItem.class);
-//                        startActivity(j);
-//                    }
-//                    else if(finall==3) {
-//                        Intent j = new Intent(CustomerFront.this, ProgressGraph.class);
-//                        startActivity(j);
-//
-//                    }
-//
-//                    else if(finall==4) {
-//                        Intent j = new Intent(CustomerFront.this, Limit.class);
-//                        startActivity(j);
-//
-//                    }
-//                    else if(finall==5) {
-//                        Intent j = new Intent(CustomerFront.this, MyLog.class);
-//                        startActivity(j);
-//                    }
+                    else if(finall==1){
+                        Intent j = new Intent(CustomerFront.this,ArtAndCraft.class);
+                        startActivity(j);
+                    }
+
+                    else if(finall==2) {
+                        Intent j = new Intent(CustomerFront.this, Electronics.class);
+                        startActivity(j);
+                    }
+                    else if(finall==3) {
+                        Intent j = new Intent(CustomerFront.this, HomeDecor.class);
+                        startActivity(j);
+                    }
+
+                    else if(finall==4) {
+                        Intent j = new Intent(CustomerFront.this, Pottery.class);
+                        startActivity(j);
+                    }
+                    else if(finall==5) {
+                        Intent j = new Intent(CustomerFront.this, Shoes.class);
+                        startActivity(j);
+                    }
                 }
             });
 

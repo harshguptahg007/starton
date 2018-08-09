@@ -34,10 +34,15 @@
         <activity android:name=".CClothes" />
         <activity android:name=".loginCommon" />
         <activity android:name=".Algse" />
-        <activity android:name=".NewActivity"/>
+        <activity android:name=".NewActivity" />
         <activity android:name=".Activity_One" />
         <activity android:name=".Activity_Two" />
-        <activity android:name=".Activity_Three"/>
+        <activity android:name=".Activity_Three" />
+        <activity android:name=".Shoes" />
+        <activity android:name=".Pottery" />
+        <activity android:name=".HomeDecor" />
+        <activity android:name=".Electronics" />
+        <activity android:name=".ArtAndCraft"></activity>
     </application>
 
 </manifest>

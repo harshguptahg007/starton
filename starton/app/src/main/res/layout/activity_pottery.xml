@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity_Two">
+    tools:context=".Pottery">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
@@ -18,7 +18,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Activity Two"
+            android:text="Pottery"
             android:textColor="#000"
             android:textSize="30sp"
             android:textStyle="italic|bold"
@@ -29,7 +29,7 @@
     </android.support.v7.widget.Toolbar>
 
     <TextView
-        android:text="ACTIVITY TWO"
+        android:text="POTTERY"
         android:layout_below="@id/toolbar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
