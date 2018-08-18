@@ -11,9 +11,11 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
@@ -23,10 +25,11 @@ import com.example.saumyagupta.starton.R;
 
 public class CClothes extends AppCompatActivity {
 
-    ListView listView;
+    ListView listView,ll;
     String[] title;
     String[] discription;
     String[] Qty;
+    TextView tt;
 
     @Override
     public void onBackPressed() {
@@ -44,7 +47,10 @@ public class CClothes extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cclothes);
         listView = (ListView) findViewById(R.id.kuchbhi);
+        ll=findViewById(R.id.kuchbhi);
         Resources res = getResources();
+
+
         title = res.getStringArray(R.array.Title5);
         discription= res.getStringArray(R.array.discription5);
         Qty= res.getStringArray(R.array.Quantity5);
@@ -53,8 +59,63 @@ public class CClothes extends AppCompatActivity {
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+//        ArrayAdapter<Integer> adapter = new ArrayAdapter<Integer>(this,android.R.layout.simple_list_item_1,img);
+//        ll.setAdapter(adapter);
+//        ll.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//            @Override
+//            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+//                Intent i1 = new Intent(CClothes.this,paygate.class);
+//                startActivity(i1);
+//            }
+//        });
+
+        ll.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                Intent payment = new Intent(CClothes.this,Payment.class);
+                Log.i("VIVZ",position+"");
+                switch (position)
+                {
+                    case 0:
+                        payment.putExtra("Image",R.drawable.tshirt);
+                        payment.putExtra("Title",title[position]);
+                        payment.putExtra("Price",discription[position]);
+                        payment.putExtra("Code",Qty[position]);
+                        break;
+
+                    case 1:
+                        payment.putExtra("Image",R.drawable.shirt);
+                        payment.putExtra("Title",title[position]);
+                        payment.putExtra("Price",discription[position]);
+                        payment.putExtra("Code",Qty[position]);
+                        break;
+
+                    case 2:
+                        payment.putExtra("Image",R.drawable.jacket);
+                        payment.putExtra("Title",title[position]);
+                        payment.putExtra("Price",discription[position]);
+                        payment.putExtra("Code",Qty[position]);
+                        break;
+
+                    case 3:
+                        payment.putExtra("Image",R.drawable.hoody);
+                        payment.putExtra("Title",title[position]);
+                        payment.putExtra("Price",discription[position]);
+                        payment.putExtra("Code",Qty[position]);
+                        break;
+                }
+                startActivity(payment);
+
+            }
+        });
     }
+
+
+
 }
+
 
 class FlipBox5 extends ArrayAdapter<String>
 {
@@ -96,6 +157,8 @@ class FlipBox5 extends ArrayAdapter<String>
 
 
     }
+
+
 
 
 }

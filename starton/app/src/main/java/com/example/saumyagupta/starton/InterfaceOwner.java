@@ -8,13 +8,15 @@ import android.os.Bundle;
 import android.support.v7.widget.CardView;
 import android.view.View;
 import android.widget.GridLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 
 
 public class InterfaceOwner extends AppCompatActivity {
-
+    TextView tv ;
     GridLayout mainGrid;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +24,11 @@ public class InterfaceOwner extends AppCompatActivity {
 
         mainGrid=(GridLayout)findViewById(R.id.mainGrid);
         setSingleEvent(mainGrid);
+
+        tv = findViewById(R.id.textGrid);
+
+        tv.setText(getIntent().getStringExtra("passer"));
+
 
     }
 

@@ -39,7 +39,7 @@
                 android:layout_below="@id/textView"
                 android:text="discription"
                 android:textColor="@android:color/black"
-                android:textSize="20sp"
+                android:textSize="16sp"
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="20dp"/>
 
@@ -52,7 +52,7 @@
                 android:text="discription"
                 android:layout_below="@id/textView4"
                 android:textColor="@android:color/black"
-                android:textSize="20sp"
+                android:textSize="16sp"
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="20dp"/>
 
@@ -66,9 +66,18 @@
                 android:text="discription"
                 android:layout_below="@id/textView5"
                 android:textColor="@android:color/black"
-                android:textSize="20sp"
+                android:textSize="16sp"
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="20dp"/>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/textView"
+                android:layout_marginEnd="14dp"
+                android:text="DONE" />
 
         </RelativeLayout>
 

@@ -7,24 +7,34 @@
         <item
             android:id="@+id/nav_activity_one"
             android:icon="@drawable/ic_account_balance_black_24dp"
-            android:title="Firm 1" />
-        <item
-            android:id="@+id/nav_activity_two"
-            android:icon="@drawable/ic_account_balance_black_24dp"
-            android:title="Firm 2" />
+            android:title="Name" />
+
         <item
             android:id="@+id/nav_activity_three"
-            android:icon="@drawable/ic_account_balance_black_24dp"
-            android:title="Firm 3" />
+            android:icon="@drawable/sign"
+            android:title="Sign Out" />
 
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="About Developers">
+    <menu>
+        <item
+            android:id="@+id/ab_dev1"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Developers" />
+
+
+
+    </menu>
+    </item>
+
+    <item android:title="Your Favourite Firms"
+          android:icon="@drawable/ic_favorite_black_24dp">
         <menu>
             <item
                 android:id="@+id/nav_share"
-                android:icon="@drawable/ic_favorite_black_24dp"
-                android:title="Your Favourite Firm" />
+                android:icon="@drawable/ic_account_balance_black_24dp"
+                android:title="Amazon Services" />
 
         </menu>
     </item>

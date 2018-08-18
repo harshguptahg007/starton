@@ -17,8 +17,8 @@
             android:layout_height="wrap_content"
             android:text="Update Items"
             android:textColor="#000"
-            android:textSize="30sp"
-            android:textStyle="italic|bold"
+            android:textSize="25sp"
+            android:textStyle="bold"
             android:gravity="center"
             android:fontFamily="sans-serif"
             android:id="@+id/toolbar_title" />
@@ -40,16 +40,45 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
+        android:background="@drawable/roundbutt"
         android:text="Add"
         android:layout_below="@id/toolbar"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="10dp"/>
 
-    <ListView
-        android:id="@+id/listView"
+    <EditText
+        android:id="@+id/ed2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText" >
+        android:layout_toLeftOf="@+id/addItem"
+        android:hint="Enter QTY"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/editText"
+        android:layout_marginStart="10dp"/>
+
+    <Button
+        android:id="@+id/aq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Add"
+        android:layout_below="@id/editText"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/roundbutt"
+        android:layout_marginEnd="10dp"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed2" >
+    </ListView>
+    <ListView
+        android:id="@+id/listView2"
+        android:layout_toRightOf="@id/listView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed2" >
     </ListView>
 
 </RelativeLayout>

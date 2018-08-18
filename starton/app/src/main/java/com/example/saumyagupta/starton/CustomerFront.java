@@ -1,6 +1,7 @@
 package com.example.saumyagupta.starton;
 
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -14,6 +15,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.GridLayout;
 import android.widget.ImageView;
@@ -51,19 +53,19 @@ public class CustomerFront extends AppCompatActivity
         cameraIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),NewActivity.class);
+                Intent intent = new Intent(getApplicationContext(),vision_main.class);
                 startActivity(intent);
             }
         });
 
         ImageView searchIcon = findViewById(R.id.searchIcon);
+        final AutoCompleteTextView textView = findViewById(R.id.autoCompleteTextView);
 
         searchIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 TextView appTitle = findViewById(R.id.appTitle);
-                AutoCompleteTextView textView = findViewById(R.id.autoCompleteTextView);
 
                 if (appTitle.getVisibility()==View.INVISIBLE){
                     appTitle.setVisibility(View.VISIBLE);
@@ -74,6 +76,14 @@ public class CustomerFront extends AppCompatActivity
                 }
             }
         });
+
+            textView.setThreshold(0);
+            Resources res = getResources();
+            String []actv1 = res.getStringArray(R.array.actv);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line, actv1);
+        textView.setAdapter(adapter);
+
+
 
             DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
             ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -102,19 +112,9 @@ public class CustomerFront extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_activity_one) {
+        if (id == R.id.nav_share) {
 
-            Intent intent = new Intent(this,Activity_One.class);
-            startActivity(intent);
-
-        } else if (id == R.id.nav_activity_two) {
-
-            Intent intent = new Intent(this,Activity_Two.class);
-            startActivity(intent);
-
-        } else if (id == R.id.nav_activity_three) {
-
-            Intent intent = new Intent(this,Activity_Three.class);
+            Intent intent = new Intent(CustomerFront.this,Activity_Two.class);
             startActivity(intent);
 
         }

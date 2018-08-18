@@ -39,6 +39,107 @@
 
     </string-array>
 
+    <string-array name="Titleart">
+
+        <item>KeyStikcers</item>
+        <item>EarPhone Cases</item>
+
+        <item>Phone Stand</item>
+        <item>Key Chains</item>
+
+
+    </string-array>
+    <string-array name="discriptionart">
+
+        <item>Price:₹100</item>
+        <item>Price:₹200</item>
+
+        <item>Price:₹200</item>
+        <item>Price:₹99</item>
+
+    </string-array>
+
+
+    <string-array name="Titleelec">
+
+        <item>Keyboards</item>
+        <item>Mouse</item>
+
+        <item>Pen Drive</item>
+        <item>Power Bank</item>
+
+
+    </string-array>
+    <string-array name="discriptionelec">
+
+        <item>Price:₹300</item>
+        <item>Price:₹200</item>
+
+        <item>Price:₹700</item>
+        <item>Price:₹1999</item>
+
+    </string-array>
+
+    <string-array name="Titlehd">
+
+        <item>Pillow Covers</item>
+        <item>BedSheet</item>
+
+        <item>DoorMat</item>
+        <item>Curtains</item>
+
+
+    </string-array>
+    <string-array name="discriptionhd">
+
+        <item>Price:₹300</item>
+        <item>Price:₹500</item>
+
+        <item>Price:₹200</item>
+        <item>Price:₹1999</item>
+
+    </string-array>
+
+    <string-array name="Titlesh">
+
+        <item>Stylish White</item>
+        <item>Stylish Black</item>
+
+        <item>Stylish Red</item>
+        <item>Stylish Matt</item>
+
+
+    </string-array>
+    <string-array name="discriptionsh">
+
+        <item>Price:₹3000</item>
+        <item>Price:₹2000</item>
+
+        <item>Price:₹2099</item>
+        <item>Price:₹2999</item>
+
+    </string-array>
+    <string-array name="Titlept">
+
+        <item>Pot</item>
+        <item>Faced</item>
+
+        <item>Small Pots</item>
+        <item>Hanging</item>
+
+
+    </string-array>
+    <string-array name="discriptionpt">
+
+        <item>Price:₹300</item>
+        <item>Price:₹200</item>
+
+        <item>Price:₹300</item>
+        <item>Price:₹199</item>
+
+    </string-array>
+
+
     <string-array name="discription">
 
         <item>Price:₹100</item>
@@ -48,6 +149,7 @@
         <item>Price:₹599</item>
 
     </string-array>
+
 
     <string-array name="Quantity">
 
@@ -206,6 +308,38 @@
 
     </string-array>
 
+    <string-array name="actv">
+        <item>Jeans</item>
+        <item>Shirt</item>
+        <item>Shoes</item>
+        <item>Candles</item>
+        <item>Beverages</item>
+        <item>Bread</item>
+        <item>Canned</item>
+        <item>Jarred Goods</item>
+        <item>Bakery</item>
+        <item>Dairy</item>
+        <item>Dry</item>
+        <item>Baking Goods</item>
+        <item>Frozen Foods</item>
+        <item>Meat</item>
+        <item>Paper Goods</item>
+        <item>paper towels</item>
+        <item>toilet paper</item>
+        <item>aluminum foil</item>
+        <item>laundry detergent</item>
+        <item>soda</item>
+        <item>flour</item>
+        <item>sugar</item>
+        <item>vegetables</item>
+        <item>Meat and Seafood</item>
+        <item>Oils, Sauces, Salad Dressings, and Condiments</item>
+        <item>Mustard</item>
+        <item>Frozen Foods</item>
+        <item>Whole-grain waffles</item>
+        <item>Dairy, Cheese, and Eggs</item>
+
+    </string-array>
 
     <string name="title_activity_customer_front">CustomerFront</string>
 
@@ -216,6 +350,20 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_customer_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
 
 
 </resources>

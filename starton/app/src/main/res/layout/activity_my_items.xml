@@ -19,8 +19,8 @@
             android:layout_height="wrap_content"
             android:text="My Items"
             android:textColor="#000"
-            android:textSize="30sp"
-            android:textStyle="italic|bold"
+            android:textSize="25sp"
+            android:textStyle="bold"
             android:gravity="center"
             android:fontFamily="sans-serif"
             android:id="@+id/toolbar_title" />
